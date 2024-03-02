@@ -102,3 +102,20 @@ body{
 .imagem.principal{
     width:50%
 }
+
+@media (max-width:1000px) {
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding:5%
+    }
+    .conteudo{
+        width: auto;
+    }
+    .cabecalo{
+        padding:10%
+    }
+    .cabecalho__menu{
+        justify-content:center ;
+    }
+    
+}
